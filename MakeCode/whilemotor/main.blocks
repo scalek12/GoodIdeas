@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="WDQXj1?.J8pIa}XjWPoN" x="692" y="-187"><statement name="HANDLER"><block type="device_show_leds" id="`#pJqZ+BRQ7kP$d[W`1;"><field name="LEDS">`
+        # . . . . 
+        . # . . . 
+        . . # . . 
+        . . . # . 
+        . . . . #
+        `</field></block></statement></block><block type="device_forever" id="#3HTBVOQW$PdGdL0ffM]" x="0" y="0"><statement name="HANDLER"><block type="device_while" id="Q05W/TxJ(5%FNFpHh(zi"><value name="COND"><shadow type="logic_boolean" disabled="true"><field name="BOOL">FALSE</field></shadow><block type="device_get_button2" id="4MO7-:$z872X9/9Rl=;("><field name="NAME">Button.A</field></block></value><statement name="DO"><block type="device_set_digital_pin" id="=*{7u@rxxX(fJ.~Vh|Fr"><field name="name">DigitalPin.P2</field><value name="value"><shadow type="math_number_minmax" id="K;+HuW$*WpGD!$eo=@hQ"><mutation min="0" max="1" label="Number" precision="0"></mutation><field name="SLIDER">1</field></shadow></value></block></statement><next><block type="device_set_digital_pin" id="p]V22^9zZ-.Ey]HyK:U}"><field name="name">DigitalPin.P2</field><value name="value"><shadow type="math_number_minmax" id="-!0UL5`0KDib!3Oe=n22"><mutation min="0" max="1" label="Number" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></block></next></block></statement></block></xml>
